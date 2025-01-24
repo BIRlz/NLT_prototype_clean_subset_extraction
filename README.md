@@ -1,1 +1,1 @@
-# NLT_prototype_clean_subset_extraction
+# Prototype-oriented Clean Subset Extraction for Noisy Long-tailed Classification
