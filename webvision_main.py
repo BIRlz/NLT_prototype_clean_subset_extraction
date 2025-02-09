@@ -393,12 +393,12 @@ test_loader = loader.run('test')
 encoder = []
 
 if args.arch == 'InceptionResNetV2':
-    args.resume = "/PATH/RoLT+/checkpoint/inception_webvision_best_s1.pth.tar"
+    args.resume = "./checkpoint/inception_webvision_best_s1.pth.tar"
     saved_ckpt = torch.load(args.resume, 'cuda')
     encoder = saved_ckpt['state_dict']
 
 if args.arch == 'resnet18':
-    args.resume = "/PATH/RoLT+/checkpoint/Sel-CL+_model.pth"
+    args.resume = "./checkpoint/Sel-CL+_model.pth"
     saved_ckpt = torch.load(args.resume, 'cuda')
     args.hidden_size = 512
     for key in list(saved_ckpt.keys()):
