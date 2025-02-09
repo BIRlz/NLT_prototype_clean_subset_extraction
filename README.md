@@ -5,8 +5,10 @@
 pip install -r requirements.txt
 ```
 
-## 2. Prepare for the data
+## 2. Prepare for the data and pre-trained weights
 Please download CIFAR-10 and CIFAR-100, and put them into the folder *data/*.
+
+For pre-trained weights, we put it in [Google Driver](https://drive.google.com/drive/folders/1bQ-OcgNlCzeqp4m2DjoC4zSKVLVYFF9y?usp=sharing).
 
 ## 3. How to run on CIFAR-10/100.
 
