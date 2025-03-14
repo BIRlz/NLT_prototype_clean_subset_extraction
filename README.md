@@ -1,4 +1,5 @@
-# Prototype-oriented Clean Subset Extraction for Noisy Long-tailed Classification
+# Prototype-oriented Clean Subset Extraction for Noisy Long-tailed Classification (TCSVT)
+Code for [TCSVT[(https://ieeexplore.ieee.org/abstract/document/10904873)
 
 ## 1. Prepare for the environment
 ```
